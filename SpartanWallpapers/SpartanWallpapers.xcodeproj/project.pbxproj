@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28885EB1CD208F800DC9106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28885EA1CD208F800DC9106 /* AppDelegate.swift */; };
+		D28885ED1CD208F800DC9106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28885EC1CD208F800DC9106 /* ViewController.swift */; };
+		D28885F01CD208F800DC9106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28885EE1CD208F800DC9106 /* Main.storyboard */; };
+		D28885F21CD208F800DC9106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28885F11CD208F800DC9106 /* Assets.xcassets */; };
+		D2D3F6C51CD2255B004ED8E2 /* sparta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2D3F6C41CD2255B004ED8E2 /* sparta.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D28885E71CD208F800DC9106 /* SpartanWallpapers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanWallpapers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28885EA1CD208F800DC9106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D28885EC1CD208F800DC9106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D28885EF1CD208F800DC9106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D28885F11CD208F800DC9106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28885F31CD208F800DC9106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D3F6C41CD2255B004ED8E2 /* sparta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sparta.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28885E41CD208F800DC9106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28885DE1CD208F800DC9106 = {
+			isa = PBXGroup;
+			children = (
+				D28885E91CD208F800DC9106 /* SpartanWallpapers */,
+				D28885E81CD208F800DC9106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28885E81CD208F800DC9106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28885E71CD208F800DC9106 /* SpartanWallpapers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28885E91CD208F800DC9106 /* SpartanWallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				D2D3F6C31CD2254B004ED8E2 /* Resources */,
+				D28885EA1CD208F800DC9106 /* AppDelegate.swift */,
+				D28885EC1CD208F800DC9106 /* ViewController.swift */,
+				D28885EE1CD208F800DC9106 /* Main.storyboard */,
+				D28885F11CD208F800DC9106 /* Assets.xcassets */,
+				D28885F31CD208F800DC9106 /* Info.plist */,
+			);
+			path = SpartanWallpapers;
+			sourceTree = "<group>";
+		};
+		D2D3F6C31CD2254B004ED8E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2D3F6C41CD2255B004ED8E2 /* sparta.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28885E61CD208F800DC9106 /* SpartanWallpapers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28885F61CD208F800DC9106 /* Build configuration list for PBXNativeTarget "SpartanWallpapers" */;
+			buildPhases = (
+				D28885E31CD208F800DC9106 /* Sources */,
+				D28885E41CD208F800DC9106 /* Frameworks */,
+				D28885E51CD208F800DC9106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpartanWallpapers;
+			productName = SpartanWallpapers;
+			productReference = D28885E71CD208F800DC9106 /* SpartanWallpapers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28885DF1CD208F800DC9106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mihai Costiug";
+				TargetAttributes = {
+					D28885E61CD208F800DC9106 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D28885E21CD208F800DC9106 /* Build configuration list for PBXProject "SpartanWallpapers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28885DE1CD208F800DC9106;
+			productRefGroup = D28885E81CD208F800DC9106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28885E61CD208F800DC9106 /* SpartanWallpapers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28885E51CD208F800DC9106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28885F21CD208F800DC9106 /* Assets.xcassets in Resources */,
+				D2D3F6C51CD2255B004ED8E2 /* sparta.mp3 in Resources */,
+				D28885F01CD208F800DC9106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28885E31CD208F800DC9106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28885ED1CD208F800DC9106 /* ViewController.swift in Sources */,
+				D28885EB1CD208F800DC9106 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D28885EE1CD208F800DC9106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28885EF1CD208F800DC9106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28885F41CD208F800DC9106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		D28885F51CD208F800DC9106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28885F71CD208F800DC9106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = SpartanWallpapers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skobbler.SpartanWallpapers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24351f42-d32b-40b9-b2b4-70182d53e5c3";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		D28885F81CD208F800DC9106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = SpartanWallpapers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skobbler.SpartanWallpapers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24351f42-d32b-40b9-b2b4-70182d53e5c3";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28885E21CD208F800DC9106 /* Build configuration list for PBXProject "SpartanWallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28885F41CD208F800DC9106 /* Debug */,
+				D28885F51CD208F800DC9106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28885F61CD208F800DC9106 /* Build configuration list for PBXNativeTarget "SpartanWallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28885F71CD208F800DC9106 /* Debug */,
+				D28885F81CD208F800DC9106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28885DF1CD208F800DC9106 /* Project object */;
+}
